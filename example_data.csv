@@ -1,0 +1,44 @@
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+SONG,,Start the next song using the songs iterator: print the song name.
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+APPETIZER_READY,Honey Nut Cake,The Honey Nut Cake appetizer is ready
+APPETIZER_READY,Banana French Toast,The Banana French Toast appetizer is ready
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+CALL,Haywards,The Haywards party calls ahead
+ARRIVE,Bolger,The Bolger party shows up
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+ARRIVE,Gamgee,The Gamgee party shows up
+CALL,Baggins,The Baggins party calls ahead
+SONG,,Start the next song using the songs iterator: print the song name.
+ARRIVE,Hlothran,The Hlothran party shows up
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+ARRIVE,Haywards,The Haywards party shows up and moves to the waiting list (up to 5 spots in)
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+SONG,,Start the next song using the songs iterator: print the song name.
+SEAT,,Seat the next party: add buzzer back to stack; remove from waiting list; print the party name
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+CALL,Goldworthy,The Goldworthy party calls ahead
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+SEAT,,Seat the next party: add buzzer back to stack; remove from waiting list; print the party name
+APPETIZER_READY,Lavender and Lemon Muffins,The Lavender and Lemon Muffins appetizer is ready
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+ARRIVE,Proudfoot,The Proudfoot party has arrived
+ARRIVE,Took,The Took party has arrived
+ARRIVE,Smallburrow,The Smallburrow party has arrived
+SONG,,Start the next song using the songs iterator: print the song name.
+ARRIVE,Sackville,The Sackville party has arrived
+APPETIZER_READY,Po-Tay-To Onion Soup,The chips appetizer is ready
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+ARRIVE,Mugwort,The Mugwort party has arrived
+APPETIZER_READY,Balin Spiced Beef,The Balin's Spiced Beef appetizer is ready
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+ARRIVE,Goldworthy,The Goldworthy party has arrived
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+SONG,,Start the next song using the songs iterator: print the song name.
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+SEAT,,Seat the next party: add buzzer back to stack; remove from waiting list; print the party name
+SONG,,Start the next song using the songs iterator: print the song name.
+LEAVE,Proudfoot,The Proudfoot party has decided to go elsewhere
+DEBUG,,Print callahead; waiting; appetizers; buzzers; songs

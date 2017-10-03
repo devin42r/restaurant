@@ -1,0 +1,105 @@
+0:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+0 >>>  >>> 
+0 >>>  >>> 
+0 >>> 
+8 >>> Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
+1:SONG,,Start the next song using the songs iterator: print the song name.
+Song 1
+2:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Error: The given index is not within the bounds of the current list.
+3:APPETIZER_READY,Honey Nut Cake,The Honey Nut Cake appetizer is ready
+4:APPETIZER_READY,Banana French Toast,The Banana French Toast appetizer is ready
+5:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+0 >>>  >>> 
+0 >>>  >>> 
+2 >>> Honey Nut Cake, Banana French Toast
+8 >>> Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
+6:CALL,Haywards,The Haywards party calls ahead
+7:ARRIVE,Bolger,The Bolger party shows up
+8:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Honey Nut Cake >>> Bolger
+9:ARRIVE,Gamgee,The Gamgee party shows up
+10:CALL,Baggins,The Baggins party calls ahead
+11:SONG,,Start the next song using the songs iterator: print the song name.
+Song 2
+12:ARRIVE,Hlothran,The Hlothran party shows up
+13:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+2 >>> Haywards, Baggins >>> Baggins, Haywards
+3 >>> Bolger, Gamgee, Hlothran >>> Hlothran, Gamgee, Bolger
+1 >>> Banana French Toast
+5 >>> Buzzer, Buzzer, Buzzer, Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
+14:ARRIVE,Haywards,The Haywards party shows up and moves to the waiting list (up to 5 spots in)
+15:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+1 >>> Baggins >>> Baggins
+4 >>> Haywards, Bolger, Gamgee, Hlothran >>> Hlothran, Gamgee, Bolger, Haywards
+1 >>> Banana French Toast
+4 >>> Buzzer, Buzzer, Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
+16:SONG,,Start the next song using the songs iterator: print the song name.
+Song 3
+17:SEAT,,Seat the next party: add buzzer back to stack; remove from waiting list; print the party name
+Haywards
+18:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+1 >>> Baggins >>> Baggins
+3 >>> Bolger, Gamgee, Hlothran >>> Hlothran, Gamgee, Bolger
+1 >>> Banana French Toast
+5 >>> Buzzer, Buzzer, Buzzer, Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
+19:CALL,Goldworthy,The Goldworthy party calls ahead
+20:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Banana French Toast >>> Hlothran, Gamgee, Bolger
+21:SEAT,,Seat the next party: add buzzer back to stack; remove from waiting list; print the party name
+Bolger
+22:APPETIZER_READY,Lavender and Lemon Muffins,The Lavender and Lemon Muffins appetizer is ready
+23:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+2 >>> Baggins, Goldworthy >>> Goldworthy, Baggins
+2 >>> Gamgee, Hlothran >>> Hlothran, Gamgee
+1 >>> Lavender and Lemon Muffins
+6 >>> Buzzer, Buzzer, Buzzer, Buzzer, Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
+24:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Lavender and Lemon Muffins >>> Hlothran, Gamgee
+25:ARRIVE,Proudfoot,The Proudfoot party has arrived
+26:ARRIVE,Took,The Took party has arrived
+27:ARRIVE,Smallburrow,The Smallburrow party has arrived
+28:SONG,,Start the next song using the songs iterator: print the song name.
+Song 1
+29:ARRIVE,Sackville,The Sackville party has arrived
+30:APPETIZER_READY,Po-Tay-To Onion Soup,The chips appetizer is ready
+31:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Po-Tay-To Onion Soup >>> Sackville, Smallburrow, Took
+32:ARRIVE,Mugwort,The Mugwort party has arrived
+33:APPETIZER_READY,Balin Spiced Beef,The Balin's Spiced Beef appetizer is ready
+34:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+2 >>> Baggins, Goldworthy >>> Goldworthy, Baggins
+7 >>> Gamgee, Hlothran, Proudfoot, Took, Smallburrow, Sackville, Mugwort >>> Mugwort, Sackville, Smallburrow, Took, Proudfoot, Hlothran, Gamgee
+1 >>> Balin Spiced Beef
+1 >>> Buzzer
+3 >>> Song 1, Song 2, Song 3
+35:ARRIVE,Goldworthy,The Goldworthy party has arrived
+36:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Balin Spiced Beef >>> Mugwort, Sackville, Smallburrow
+37:APPETIZER,,Give next appetizer to the last 3 waiting: print appetizer; print the three party names in reverse order
+Error: The given index is not within the bounds of the current list.
+38:SONG,,Start the next song using the songs iterator: print the song name.
+Song 2
+39:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+1 >>> Baggins >>> Baggins
+8 >>> Gamgee, Hlothran, Proudfoot, Goldworthy, Took, Smallburrow, Sackville, Mugwort >>> Mugwort, Sackville, Smallburrow, Took, Goldworthy, Proudfoot, Hlothran, Gamgee
+0 >>> 
+0 >>> 
+3 >>> Song 1, Song 2, Song 3
+40:SEAT,,Seat the next party: add buzzer back to stack; remove from waiting list; print the party name
+Gamgee
+41:SONG,,Start the next song using the songs iterator: print the song name.
+Song 3
+42:LEAVE,Proudfoot,The Proudfoot party has decided to go elsewhere
+43:DEBUG,,Print callahead; waiting; appetizers; buzzers; songs
+1 >>> Baggins >>> Baggins
+6 >>> Hlothran, Goldworthy, Took, Smallburrow, Sackville, Mugwort >>> Mugwort, Sackville, Smallburrow, Took, Goldworthy, Hlothran
+0 >>> 
+2 >>> Buzzer, Buzzer
+3 >>> Song 1, Song 2, Song 3
